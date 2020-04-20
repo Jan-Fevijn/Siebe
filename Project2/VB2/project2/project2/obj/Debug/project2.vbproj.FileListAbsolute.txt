@@ -1,0 +1,10 @@
+C:\Users\Siebe\Desktop\usbwebserver\root\GITHUB\Siebe\Project2\VB2\project2\project2\bin\Debug\project2.exe.config
+C:\Users\Siebe\Desktop\usbwebserver\root\GITHUB\Siebe\Project2\VB2\project2\project2\bin\Debug\project2.exe
+C:\Users\Siebe\Desktop\usbwebserver\root\GITHUB\Siebe\Project2\VB2\project2\project2\bin\Debug\project2.pdb
+C:\Users\Siebe\Desktop\usbwebserver\root\GITHUB\Siebe\Project2\VB2\project2\project2\bin\Debug\project2.xml
+C:\Users\Siebe\Desktop\usbwebserver\root\GITHUB\Siebe\Project2\VB2\project2\project2\obj\Debug\project2.vbprojAssemblyReference.cache
+C:\Users\Siebe\Desktop\usbwebserver\root\GITHUB\Siebe\Project2\VB2\project2\project2\obj\Debug\project2.Resources.resources
+C:\Users\Siebe\Desktop\usbwebserver\root\GITHUB\Siebe\Project2\VB2\project2\project2\obj\Debug\project2.vbproj.GenerateResource.cache
+C:\Users\Siebe\Desktop\usbwebserver\root\GITHUB\Siebe\Project2\VB2\project2\project2\obj\Debug\project2.exe
+C:\Users\Siebe\Desktop\usbwebserver\root\GITHUB\Siebe\Project2\VB2\project2\project2\obj\Debug\project2.xml
+C:\Users\Siebe\Desktop\usbwebserver\root\GITHUB\Siebe\Project2\VB2\project2\project2\obj\Debug\project2.pdb

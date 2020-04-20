@@ -16,6 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 }
 ?>
 <html>
+
 <head>
     <title>Overzicht</title>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -29,9 +30,11 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
 <!-- inhoud -->
 <!-- overzicht -->
+
 <div id="container" class="container">
   <table class="table">
     <thead class="thead-dark">
+    
       <tr>
         <th scope="col">#</th>
         <th scope="col">Bedrag</th>
