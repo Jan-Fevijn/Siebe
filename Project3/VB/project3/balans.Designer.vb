@@ -60,7 +60,7 @@ Partial Class balans
         'btnAdd
         '
         Me.btnAdd.Location = New System.Drawing.Point(166, 136)
-        Me.btnAdd.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnAdd.Margin = New System.Windows.Forms.Padding(2)
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(56, 19)
         Me.btnAdd.TabIndex = 2
@@ -69,8 +69,8 @@ Partial Class balans
         '
         'txtSaldo
         '
-        Me.txtSaldo.Location = New System.Drawing.Point(72, 136)
-        Me.txtSaldo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtSaldo.Location = New System.Drawing.Point(52, 135)
+        Me.txtSaldo.Margin = New System.Windows.Forms.Padding(2)
         Me.txtSaldo.Name = "txtSaldo"
         Me.txtSaldo.Size = New System.Drawing.Size(76, 20)
         Me.txtSaldo.TabIndex = 3
@@ -88,7 +88,7 @@ Partial Class balans
         'txtcode
         '
         Me.txtcode.Location = New System.Drawing.Point(72, 193)
-        Me.txtcode.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtcode.Margin = New System.Windows.Forms.Padding(2)
         Me.txtcode.Name = "txtcode"
         Me.txtcode.Size = New System.Drawing.Size(76, 20)
         Me.txtcode.TabIndex = 6
@@ -128,7 +128,7 @@ Partial Class balans
         Me.Controls.Add(Me.btnAdd)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "balans"
         Me.Text = "saldo"
         Me.MenuStrip1.ResumeLayout(False)

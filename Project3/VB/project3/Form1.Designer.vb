@@ -63,7 +63,7 @@ Partial Class frmToevoegenBrood
         '
         'txtbrood
         '
-        Me.txtbrood.Location = New System.Drawing.Point(52, 112)
+        Me.txtbrood.Location = New System.Drawing.Point(82, 109)
         Me.txtbrood.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtbrood.Name = "txtbrood"
         Me.txtbrood.Size = New System.Drawing.Size(76, 20)
@@ -72,7 +72,7 @@ Partial Class frmToevoegenBrood
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(11, 115)
+        Me.Label1.Location = New System.Drawing.Point(11, 112)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(37, 13)
@@ -82,26 +82,26 @@ Partial Class frmToevoegenBrood
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(14, 173)
+        Me.Label2.Location = New System.Drawing.Point(14, 149)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(34, 13)
+        Me.Label2.Size = New System.Drawing.Size(57, 13)
         Me.Label2.TabIndex = 5
-        Me.Label2.Text = "code:"
+        Me.Label2.Text = "klantcode:"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(14, 233)
+        Me.Label3.Location = New System.Drawing.Point(20, 196)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(28, 13)
+        Me.Label3.Size = New System.Drawing.Size(58, 13)
         Me.Label3.TabIndex = 6
-        Me.Label3.Text = "prijs:"
+        Me.Label3.Text = "prijs (euro):"
         '
         'btnadd
         '
-        Me.btnadd.Location = New System.Drawing.Point(143, 170)
+        Me.btnadd.Location = New System.Drawing.Point(53, 239)
         Me.btnadd.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnadd.Name = "btnadd"
         Me.btnadd.Size = New System.Drawing.Size(56, 19)
@@ -111,7 +111,8 @@ Partial Class frmToevoegenBrood
         '
         'nmrCode
         '
-        Me.nmrCode.Location = New System.Drawing.Point(53, 171)
+        Me.nmrCode.DecimalPlaces = 2
+        Me.nmrCode.Location = New System.Drawing.Point(83, 194)
         Me.nmrCode.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.nmrCode.Name = "nmrCode"
         Me.nmrCode.Size = New System.Drawing.Size(75, 20)
@@ -119,9 +120,9 @@ Partial Class frmToevoegenBrood
         '
         'nmrPrijs
         '
-        Me.nmrPrijs.DecimalPlaces = 2
-        Me.nmrPrijs.Location = New System.Drawing.Point(53, 231)
+        Me.nmrPrijs.Location = New System.Drawing.Point(82, 147)
         Me.nmrPrijs.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.nmrPrijs.Maximum = New Decimal(New Integer() {10000, 0, 0, 0})
         Me.nmrPrijs.Name = "nmrPrijs"
         Me.nmrPrijs.Size = New System.Drawing.Size(75, 20)
         Me.nmrPrijs.TabIndex = 9
@@ -129,13 +130,11 @@ Partial Class frmToevoegenBrood
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(87, 40)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Location = New System.Drawing.Point(104, 55)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(203, 31)
+        Me.Label4.Size = New System.Drawing.Size(131, 13)
         Me.Label4.TabIndex = 10
-        Me.Label4.Text = "Nieuwe broden "
+        Me.Label4.Text = "nieuwe broden toevoegen"
         '
         'frmToevoegenBrood
         '
