@@ -1,8 +1,18 @@
 Security camera
 python3 rpi_camera_surveillance_system.py
+
 http://10.2.3.136:8000/index.html
 http://localhost:8080/
 10.9.0.163
+
+
+Qr -code reader 
+sudo python reader.py 0
+
+
+
+
+
 
 with picamera.PiCamera() as camera:
     camera.resolution = (640, 480)
@@ -11,15 +21,7 @@ with picamera.PiCamera() as camera:
         camera.wait_recording(60*48)
 
 
-
-Qr -code reader 
-sudo python reader.py 0
-
 https://pimylifeup.com/raspberry-pi-mysql/
-
-
-
-
 
 
 https://github.com/rijinmk/code-qr-code-reader-rpi3
@@ -27,9 +29,6 @@ https://raspberrypihq.com/use-a-push-button-with-raspberry-pi-gpio/
 https://www.raspberrypi.org/documentation/usage/camera/
 https://picamera.readthedocs.io/en/release-1.9/recipes1.html#recording-video-to-a-stream
 https://www.raspberrypi.org/documentation/configuration/camera.md
-
-
-
 
 
 https://cvster.nl/app/resumes/6569756/edit

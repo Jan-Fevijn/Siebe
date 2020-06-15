@@ -58,4 +58,8 @@ INSERT INTO `gip`.`aanwezig` (`idleerling`, `tijd`, `aanwezigheid`, `datum`) VAL
 UPDATE `gip`.`aanwezig` SET `aanwezigheid` = 'aanwezig' WHERE (`idaanwezig` = '1');
 UPDATE `gip`.`aanwezig` SET `aanwezigheid` = 'afwezig' WHERE (`idaanwezig` = '2');
 
+INSERT INTO `gip`.`aanwezig` (`idleerling`, `tijd`, `aanwezigheid`, `datum`) VALUES ('1', '8:25', 'aanwezig', '2020-06-18');
+INSERT INTO `gip`.`aanwezig` (`idleerling`, `tijd`, `aanwezigheid`, `datum`) VALUES ('2', '8:30', 'aanwezig', '2020-06-18');
+INSERT INTO `gip`.`aanwezig` (`idleerling`, `tijd`, `aanwezigheid`, `datum`) VALUES ('1', '12:05', 'afwezig', '2020-06-18');
+INSERT INTO `gip`.`aanwezig` (`idleerling`, `tijd`, `aanwezigheid`, `datum`) VALUES ('2', '12:00', 'afwezig', '2020-06-18');
 

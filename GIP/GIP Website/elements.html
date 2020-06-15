@@ -54,24 +54,55 @@
 							<h3>Wat is mijn GIP</h3>
 							<p>Mijn GIP is een Buiten school registratie. </p>
 							<p>Wat houdt dit precies in ?</p>
-							<p>Mijn gip zet op basis van een gegenereerde QR-Code de leerlingen aanwezig/afwezig om ze op een efficiente wijze te checken.</p>
+							<p>Mijn gip zet op basis van een gegenereerde QR-Code de leerlingen aanwezig/afwezig om ze op een efficiente wijze te controleren.</p>
 							<hr />
 
 							<header>
 								<h3>Disclaimer</h3>
 							</header>
-							<p>Mijn Gip werkt alleen nog maar op een handmatige basis door het volgende commando te typen  via de raspberri py config panel <b>"sudo python reader.py 0"</b> .</p>
+							<p>Mijn Gip werkt alleen nog maar op een handmatige basis door het volgende commando te typen  via de raspberri py config panel <br><b>"sudo python reader.py 0"</b> .</p>
 							<p>Wanneer je deze code hebt ingetikt en enter hebt geduwd, gaat de Raspberry pi direct via de camera opzoek naar een QR-Code.</p>
 							<p>Deze QR-Code bestaat uit het email adres van de leerling, de datum en tijd wanneer deze gemaakt werd.</p>
-							<p><span class="image left"><img src="images/pic10.png" alt="" /></span></p>
 							<p>Dan wordt de QR-Code opgesplits in deeltjes die zo naar de databank gestuurd worden om bij de juiste persoon de gegevens aan te passen.</p>
+							<p><span class="image left"><img src="images/pic10.png" alt="" /></span></p>
 							<br></br>
 							<br></br>
 							<br></br>
 							<br></br>
 							<br></br>
-							
-		<!-- Footer -->
+							<br></br>
+							<hr />
+							<h3>Hoe bouw je de basis op van mijn programma ?</h3>
+							<h4>wat heb je nodig</h4>
+							<p>Een Raspberry pi, Muis en toetsenbord, InternetVerbinding, Een Raspberry pi camera module, Computerscherm + kabels.</p>
+							<p><b>stap 1 :</b> Installeer Raspbarian op de raspberri pi via een SD kaart.</p>
+							<p><b>stap 2 :</b> Plug de Camera in de juiste module slot</p>
+							<p><span class="image left"><img src="images/insert_camera_cable_in_pi.jpg" alt="" /></span></p>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<p><b>stap 3 :</b> Zorg ervoor dat de Camera enabled is dit kan je doen via het commando <b>"sudo raspi-config"</b>
+								in de terminal hebt ingetickt, daarna ga je naar nummer 5 of <b>"Interfacing Options"</b> genaamd,Vervolgens ga je naar P1 of <b>"Camera"</b> en enable je de camera hierna zul je de raspberry pi moeten heropstarten.</p>
+							<p><b>stap 4 :</b> Als de Raspberry pi terug opgestart is dan zult u 1 voor 1 deze commando's moeten plakken in de terminal.</p>
+							<p>sudo apt-get update</p>
+							<p>sudo apt-get update -y && sudo apt-get upgrade -y</p>
+							<p>sudo apt-get install fswebcam</p>
+							<p>sudo easy_install pip</p>
+							<p>sudo apt-get install build-essential python2.7-dev python-setuptools</p>
+							<p>sudo sush install_opencv.sh</p>
+							<p>sudo pip install picamera</p>
+							<p>sudo apt-get install python-qrtools </p>
+							<p>sudo apt-get install libzbar-dev </p>
+							<p>sudo pip install zbar</p>
+							<p><b>stap 5 :</b> plaats alle bestanden in de bestandbeheerder applicatie, maak een mapje aan die qr_codes noemt hier worden alle Qr-Codes in opgeslagen.</p>
+							<h3>Dit is de Basis wat je nodig hebt om mijn programma te kunnen gebruiken.</h3>
+		<!-- Footer -->		
+		
+
 			<footer id="footer">
 				<div class="inner">
 					<ul class="icons">
